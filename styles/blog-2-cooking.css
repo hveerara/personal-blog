@@ -1,0 +1,19 @@
+@import "./globals.css";
+
+#contentImage {
+  background: url("../images/cooking.jpeg") no-repeat;
+  background-size: 100% auto;
+  height: 100px;
+}
+
+#contentRef {
+  color: #000;
+  padding: 10px;
+}
+
+@media (min-width: 800px) {
+  #contentImage {
+    background-size: 1350px;
+    height: 400px;
+  }
+}

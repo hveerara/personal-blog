@@ -1,0 +1,69 @@
+@import "./globals.css";
+
+#headerTitle {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#contentImage {
+  background: url("../images/subscribe.jpeg") no-repeat;
+  background-size: 100% auto;
+  height: 100px;
+  padding: 20px;
+}
+
+#contentSubscribeForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: 1px #808080 solid;
+  border-radius: 3%;
+}
+
+.formElement {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.formElementSpan {
+  padding: 2px;
+}
+
+#formElementButton {
+  align-items: left;
+  padding: 10px;
+}
+
+#subscribeBtn {
+  background: #a9a9a9;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  width: 150px;
+  height: 50px;
+  border: 1px #a9a9a9 solid;
+  border-radius: 15%;
+}
+
+@media (min-width: 800px) {
+  #contentSubscribeForm {
+    padding: 30px;
+    width: 350px;
+    height: 250px;
+  }
+
+  #contentImage {
+    background: url("../images/subscribe.jpeg") no-repeat;
+    background-size: 1450px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  .formElement {
+    padding: 10px;
+  }
+}

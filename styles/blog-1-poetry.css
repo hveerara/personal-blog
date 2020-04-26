@@ -1,0 +1,40 @@
+@import "./globals.css";
+
+#headerTitle {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#contentSubTitle {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  text-align: justify;
+}
+
+#contentImage {
+  background: url("../images/rfrost-two-roads.jpeg") no-repeat;
+  background-size: 100% auto;
+  height: 100px;
+}
+
+#contentPoemText {
+  font-size: 17px;
+  font-style: italic;
+  padding: 10px;
+}
+
+#contentRef {
+  color: #000;
+  padding: 10px;
+}
+
+@media (min-width: 800px) {
+  #contentImage {
+    background-size: 1450px;
+    height: 400px;
+  }
+}

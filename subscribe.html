@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Subscribe</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="./styles/subscribe.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <span id="headerTitle">Quest for my Ikigai</span>
+      </header>
+      <!-- Sidebar -->
+      <nav>
+        <ul class="sidebarList" aria-label="Blog List">
+          <li class="captionTitle">Blog List</li>
+          <li>
+            <a href="./home.html" aria-label="Link to blog home page">
+              Home
+            </a>
+          </li>
+        </ul>
+        <ul class="sidebarList" aria-label="Stay upto date!">
+          <li class="captionTitle" style="font-weight: bold;">
+            Stay upto date!
+          </li>
+          <li>
+            <a href="./follow-me.html" aria-label="Link to Follow-Me page">
+              Follow Me
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Main Content -->
+      <article role="main" aria-label="article">
+        <h1>Subscribe</h1>
+        <div
+          id="contentImage"
+          role="img"
+          aria-label="Image reads Subscribe"
+          title="Subscribe to this blog"
+        ></div>
+        <section aria-label="Quest for my Ikigai: Subscribe">
+          <form id="contentSubscribeForm">
+            <div class="formElement">
+              <span class="formElementSpan">
+                <label for="firstName"
+                  >First Name:
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    value="First name"
+                    arial-label="firstName"
+                    contenteditable="true"
+                /></label>
+              </span>
+            </div>
+            <div class="formElement">
+              <span class="formElementSpan">
+                <label for="lastName"
+                  >Last Name:
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    value="Last name"
+                    aria-label="lastName"
+                    contenteditable="true"
+                /></label>
+              </span>
+            </div>
+            <div class="formElement">
+              <span class="formElementSpan">
+                <label for="emailAddress"
+                  >Email Address:
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    value="Email address"
+                    aria-label="emailAddress"
+                /></label>
+              </span>
+            </div>
+            <div id="formElementButton">
+              <span>
+                <input
+                  type="button"
+                  id="subscribeBtn"
+                  name="subscribe"
+                  value="Subscribe!"
+                  aria-label="subscribe"
+                />
+              </span>
+            </div>
+          </form>
+        </section>
+      </article>
+      <!-- Footer -->
+      <footer>
+        <span id="footerText">&copy; 2020 HV. All rights reserved.</span>
+      </footer>
+    </div>
+  </body>
+</html>

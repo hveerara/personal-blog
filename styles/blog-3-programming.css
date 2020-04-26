@@ -1,0 +1,24 @@
+@import "./globals.css";
+
+#contentImage {
+  background: url("../images/programming.jpeg") no-repeat;
+  background-size: 100% auto;
+  height: 100px;
+}
+
+#contentProgrammingText {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#contentRef {
+  color: #000;
+  padding: 10px;
+}
+
+@media (min-width: 800px) {
+  #contentImage {
+    background-size: 1450px;
+    height: 400px;
+  }
+}
