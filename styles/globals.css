@@ -10,16 +10,8 @@
     "hd"
     "sb"
     "ct"
+    "asd"
     "ft";
-}
-
-header {
-  grid-area: hd;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  text-align: center;
-  background: rgba(128, 128, 128, 0.219);
 }
 
 nav {
@@ -37,20 +29,6 @@ article {
   align-items: center;
   overflow-y: auto;
   border: 1px solid #80808038;
-}
-
-footer {
-  grid-area: ft;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #80808038;
-}
-
-#headerTitle {
-  font-size: 30px;
-  font-weight: bold;
-  padding: 10px;
 }
 
 .sidebarList {
@@ -88,9 +66,18 @@ section {
   align-items: center;
 }
 
-#footerText {
-  font-size: 12px;
-  padding: 10px;
+aside {
+  grid-area: asd;
+  text-align: left;
+  align-items: center;
+  overflow-y: auto;
+  border: 1px solid #80808038;
+  padding: 15px;
+}
+
+#authorName {
+  text-align: center;
+  font-weight: bold;
 }
 
 @media (min-width: 800px) {
@@ -101,6 +88,7 @@ section {
     grid-template-areas:
       "hd hd hd hd"
       "sb ct ct ct"
+      "sb asd asd asd"
       "ft ft ft ft";
   }
 

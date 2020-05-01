@@ -1,4 +1,6 @@
+@import "./footer.css";
 @import "./globals.css";
+@import "./header.css";
 
 #headerTitle {
   font-size: 30px;
@@ -16,7 +18,7 @@
 }
 
 #contentImage {
-  background: url("../images/rfrost-two-roads.jpeg") no-repeat;
+  /* background: url("../images/rfrost-two-roads.jpeg") no-repeat; */
   background-size: 100% auto;
   height: 100px;
 }

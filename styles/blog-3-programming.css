@@ -1,4 +1,6 @@
+@import "./footer.css";
 @import "./globals.css";
+@import "./header.css";
 
 #contentImage {
   background: url("../images/programming.jpeg") no-repeat;
